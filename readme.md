@@ -60,7 +60,7 @@ as a zip file and extract it, or clone the repo using git.
 - Copy the content of the reply email after the line:
     
     *--------------------------cut here----------------------*
-- Save to *moss.pl* file in the *moss* directory.
+- Save the content to *moss.pl* file in *moss* directory.
 
 ## Step 4: Download Students' Submissions
 
