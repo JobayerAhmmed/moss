@@ -75,7 +75,7 @@ The directory name will be *moss*.
 ## Step 5: Process Submissions for Moss
 
 - Open file *main.py* from the *moss* directory.
-- Update lines 70-73 in the *__main__* section accordingly, if necessary.
+- Update lines 70-73 in the *\_\_main\_\_* section accordingly, if necessary.
 - Open a terminal and go to the *moss* directroy
 - Run: `python3 main.py`
 
@@ -86,7 +86,7 @@ The directory name will be *moss*.
 - To upload to Moss, run: 
     - `./moss.pl -l java -d HW1/submissions_for_moss/*/edu/mystate/cs101/hw1/*.java`
     - You should change this command according to the changes you have made 
-      in the *__main__* section of *main.py* file
+      in the *\_\_main\_\_* section of *main.py* file
         - -l: programming language (i.e., *java*).
         - -d: submissions are by directory. Files in a directory are taken to
           be part of the same program and reported matches are organized
