@@ -44,9 +44,10 @@ directory (package) structure of the project is -
 
 Download the repo 
 [https://github.com/JobayerAhmmed/moss](https://github.com/JobayerAhmmed/moss)
-as a zip file and extract it, or clone the repo using git.
+as a zip file and extract it, or clone the repository using git.
+The directory name will be *moss*.
 
-## Step 3: Register for Moss [(link)](https://theory.stanford.edu/~aiken/moss/#:~:text=Registering%20for%20Moss)
+## Step 3: Register for Moss [(doc)](https://theory.stanford.edu/~aiken/moss/#:~:text=Registering%20for%20Moss)
 
 - Send an email to `moss@moss.stanford.edu`
     - Email subject (optional): registeruser
@@ -60,7 +61,7 @@ as a zip file and extract it, or clone the repo using git.
 - Copy the content of the reply email after the line:
     
     *--------------------------cut here----------------------*
-- Save the content to *moss.pl* file in *moss* directory.
+- Save the content to *moss.pl* file in the *moss* directory.
 
 ## Step 4: Download Students' Submissions
 
@@ -73,6 +74,8 @@ as a zip file and extract it, or clone the repo using git.
 
 ## Step 5: Process Submissions for Moss
 
+- Open file *main.py* from the *moss* directory.
+- Update lines 70-73 in the *__main__* section accordingly, if necessary.
 - Open a terminal and go to the *moss* directroy
 - Run: `python3 main.py`
 
@@ -82,8 +85,8 @@ as a zip file and extract it, or clone the repo using git.
 - To set execution permission, run: `chmod +x moss.pl`
 - To upload to Moss, run: 
     - `./moss.pl -l java -d HW1/submissions_for_moss/*/edu/mystate/cs101/hw1/*.java`
-    - You can change this command according to the programming language 
-      and the directory structure:
+    - You should change this command according to the changes you have made 
+      in the *__main__* section of *main.py* file
         - -l: programming language (i.e., *java*).
         - -d: submissions are by directory. Files in a directory are taken to
           be part of the same program and reported matches are organized
@@ -93,7 +96,7 @@ as a zip file and extract it, or clone the repo using git.
 
     "Query submitted.  Waiting for the server's response."
  
-- Wait a few seconds and the Moss server will return a URL in the terminal 
+- Wait a few seconds and the Moss will return a URL in the terminal 
 (like: http://moss.stanford.edu/results/2/5294092300784).
 - Copy the URL from the terminal and open it in a browser.
 - You should see the Moss report for each student's directory.

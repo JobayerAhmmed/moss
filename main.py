@@ -68,9 +68,9 @@ if __name__ == '__main__':
     # UPDATE THESE ACCORDINGLY
     #
     hw_name = 'HW1'
+    dir_structure = ['edu', 'mystate', 'cs101', 'hw1']
     src_code_file_extensions = ['.java',]
     submissions_zip_filename = 'submissions.zip'
-    dir_structure = ['edu', 'mystate', 'cs101', 'hw1']
 
 
     project_root_dir = os.path.dirname(os.path.abspath(__file__))
