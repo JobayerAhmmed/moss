@@ -32,7 +32,7 @@ directory (package) structure of the project is -
 2. Python 3
 
     (a) Check Python 3 is installed on your system
-    - Open a Terminal and run: `python3 --version`
+    - Run: `python3 --version`
     - If Python 3 is installed, you should see output showing the version 
       number, like "Python 3.x.y" (where x and y are any number).
 
@@ -40,7 +40,7 @@ directory (package) structure of the project is -
     or read the Python wiki 
     [page](https://wiki.python.org/moin/BeginnersGuide/Download) to install it.
 
-## Step 2: Download (or clone) the repo
+## Step 2: Download (or clone) the repository
 
 Download the repo 
 [https://github.com/JobayerAhmmed/moss](https://github.com/JobayerAhmmed/moss)
@@ -57,8 +57,10 @@ as a zip file and extract it, or clone the repo using git.
     ```
     - In the email body, replace **<email_address>** with **your** email address.
 
-- Save the content of the reply email to the *moss.pl* file in the *moss* directory.
-- Open a terminal in *moss* directory and set execution permission: `chmod +x moss.pl`
+- Copy the content of the reply email after the line:
+    
+    *--------------------------cut here----------------------*
+- Save to *moss.pl* file in the *moss* directory.
 
 ## Step 4: Download Students' Submissions
 
@@ -67,7 +69,7 @@ as a zip file and extract it, or clone the repo using git.
   (or, homework you want to work on).
 - Use the *Download Submissions* link and download all the student submissions 
   as a .zip file.
-- Keep the zip file (*submissions.zip*) inside the *moss* directory.
+- Keep the zip file named as *submissions.zip* inside the *moss* directory.
 
 ## Step 5: Process Submissions for Moss
 
@@ -77,7 +79,8 @@ as a zip file and extract it, or clone the repo using git.
 ## Step 6: Upload Submissions to Moss
 
 - Open a terminal and go to the *moss* directroy
-- Run: 
+- To set execution permission, run: `chmod +x moss.pl`
+- To upload to Moss, run: 
     - `./moss.pl -l java -d HW1/submissions_for_moss/*/edu/mystate/cs101/hw1/*.java`
     - You can change this command according to the programming language 
       and the directory structure:
